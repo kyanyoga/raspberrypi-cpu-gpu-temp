@@ -13,7 +13,7 @@ import time
 import gettemp
 
 # create a connection to es
-es = Elasticsearch([{'host':'192.168.1.10', 'port': 9200}])
+es = Elasticsearch([{'host':'YOUR_IP_HERE', 'port': 9200}])
 
 # create index - ignore 400 
 es.indices.create(index='sensor', ignore=400)
