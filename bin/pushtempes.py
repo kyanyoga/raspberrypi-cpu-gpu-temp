@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""Written By: Gus Segura - Blueskymetrics.com
+   Push RaspberryPI CPU and GPU temperatures to elasticsearch
+"""
+
 from __future__ import division
 from datetime import datetime
 from elasticsearch import Elasticsearch

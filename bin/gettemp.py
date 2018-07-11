@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""Written By: Gus Segura - Blueskymetrics.com
+   RaspberryPI GPU and CPU temperature function library
+"""
+
 from __future__ import division
 import subprocess
 
