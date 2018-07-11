@@ -8,14 +8,11 @@ python bin/gettemp.py [ This will print CPU and GPU temperature ]
 install and configure simple elasticsearch cluster
 https://gist.github.com/jpalala/ab3c33dd9ee5a6efbdae
 
-verify cluster is running with...
-python bin/req.py 
+python bin/req.py [verify cluster is running]
 
-load some data from swapi...
-python bin/swimp.py
+python bin/swimp.py [load some data from swapi]
 
-push real-time raspberry pi data with python into elasticsearch...
-python bin/pushtempes.py
+python bin/pushtempes.py [push real-time raspberry pi data into es]
 
 ### Notes
 Only tested on RaspberryPi 0 and W.
