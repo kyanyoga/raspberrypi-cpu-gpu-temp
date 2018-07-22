@@ -9,14 +9,14 @@
 from elasticsearch import Elasticsearch
 
 # create connection to elasticsearch running locally
-es = Elasticsearch([{'host':'localhost', 'port': 9200}])
+es = Elasticsearch([{'host':'192.168.1.10', 'port': 9200}])
 
 # imports for handling json and web requests
 import json
 import requests
 
 # create request get to es
-r = requests.get('http://localhost:9200')
+r = requests.get('http://192.168.1.10:9200')
 
 # set counter
 i = 1
