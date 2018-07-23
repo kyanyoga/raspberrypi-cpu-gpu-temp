@@ -15,4 +15,4 @@ python bin/swimp.py [load some data from swapi]
 python bin/pushtempes.py [push real-time raspberry pi data into es]
 
 ### Notes
-Only tested on RaspberryPi 0 and W.
+Tested on RaspberryPi 3, RaspberryPi 0 and W.
